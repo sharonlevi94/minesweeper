@@ -1,0 +1,28 @@
+.icon {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  &.bomb {
+    background-image: url("../assets/icons/bomb.svg");
+  }
+  &.flag {
+    background-image: url("../assets/icons/flag.svg");
+  }
+  &.playing {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-image: url("../assets/icons/playing.svg");
+  }
+  &.game-over {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-image: url("../assets/icons/game-over.svg");
+  }
+}
