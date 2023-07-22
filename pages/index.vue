@@ -189,7 +189,7 @@ export default {
 
     @media screen and (max-width: 800px) {
       width: 90%;
-      height: 50vh;
+      min-height: 50vh;
     }
 
     .minesweeper-top {
